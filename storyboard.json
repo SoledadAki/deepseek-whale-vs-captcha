@@ -1,0 +1,1321 @@
+{
+  "fps": 30,
+  "total_frames": 1290,
+  "intervals": "start inclusive, end exclusive",
+  "frame_convention": "全部帧号均为最终43秒成片帧，零起始，区间左闭右开；无需旧工程或故事帧换算。",
+  "keyframes": {
+    "failImpact": 555,
+    "freezeStart": 558,
+    "freezeEnd": 576,
+    "passImpact": 945,
+    "strikeNot": 1093,
+    "blackStart": 1175,
+    "decisionCloseupStart": 630,
+    "decisionCloseupEnd": 681,
+    "endingSpeech": 1099,
+    "endCardIn": 1188,
+    "endCardFull": 1209,
+    "endCardOutStart": 1257,
+    "endCardOut": 1284
+  },
+  "revision": "public-1.0.0-based-on-v3.1",
+  "speech_convention": "speech=嘴部尖尾对话气泡；thought=云形圆点思考气泡；ui_text=系统或主句。未分配字段不覆盖text说明，按分镜action落实。",
+  "music": [
+    {
+      "section": "play",
+      "start_frame": 16,
+      "end_frame": 290
+    },
+    {
+      "section": "rush",
+      "start_frame": 290,
+      "end_frame": 458
+    },
+    {
+      "section": "rush2",
+      "start_frame": 458,
+      "end_frame": 552
+    },
+    {
+      "section": "panic",
+      "start_frame": 581,
+      "end_frame": 630
+    },
+    {
+      "section": "sneak",
+      "start_frame": 630,
+      "end_frame": 888
+    },
+    {
+      "section": "suspense",
+      "start_frame": 888,
+      "end_frame": 942
+    },
+    {
+      "section": "victory",
+      "start_frame": 945,
+      "end_frame": 1060
+    },
+    {
+      "section": "ending",
+      "start_frame": 1060,
+      "end_frame": 1099
+    },
+    {
+      "section": "tag",
+      "start_frame": 1099,
+      "end_frame": 1175
+    }
+  ],
+  "check_frames": [
+    212,
+    305,
+    353,
+    399,
+    480,
+    561,
+    708,
+    951,
+    1102,
+    1135,
+    1233
+  ],
+  "beats": [
+    {
+      "start_frame": 0,
+      "end_frame": 66,
+      "character": "idle",
+      "action": "故障闪切后领饭口露出，“领饭前，请先验证”停留约2秒交代起因",
+      "text": "领饭前，请先验证",
+      "sound": "电流、短故障",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 66,
+      "end_frame": 120,
+      "character": "hungry",
+      "action": "验证卡砸下，光标落地，点框后加载。",
+      "text": "我不是机器人；验证完就开饭？",
+      "sound": "呼啸、重砸、点击",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 120,
+      "end_frame": 170,
+      "character": "confused",
+      "action": "红绿灯九宫格入场，先给观众读题时间，再开始选灯。",
+      "text": "请选出所有 红绿灯",
+      "sound": "甩入、闷击",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 170,
+      "end_frame": 200,
+      "character": "confused",
+      "action": "继续选择明确的红绿灯目标，然后移向半根杆子的格子。",
+      "text": "—",
+      "sound": "稀疏点击、滴答",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 200,
+      "end_frame": 245,
+      "character": "confused",
+      "action": "先看角色困惑反应，再移向杆子；光标左右犹豫",
+      "text": "杆子……也算？",
+      "sound": "滴答加密",
+      "camera": "困惑脸与半根杆子的同框近景",
+      "ui_text": "",
+      "speech": "杆子……也算？",
+      "thought": ""
+    },
+    {
+      "start_frame": 245,
+      "end_frame": 290,
+      "character": "pretend",
+      "action": "额外选择半根杆子并提交，系统盖下请重试章。",
+      "text": "请重试；啊？",
+      "sound": "点击、错误声、小重砸",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 290,
+      "end_frame": 321,
+      "character": "hungry",
+      "action": "完整展示白饭题约1秒，光标指向题目，标题与示例图标轻弹，让观众先看清题。",
+      "text": "请选出所有 大白米饭",
+      "sound": "亮叮、短蓄力",
+      "camera": "白饭题同框，先读题",
+      "ui_text": "请选出所有 大白米饭",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 321,
+      "end_frame": 345,
+      "character": "excited",
+      "action": "切excited半身特写，她说这我知道！与刚才题目的饭碗呼应。",
+      "text": "请选出所有 大白米饭；这我知道！",
+      "sound": "亮叮、短蓄力",
+      "camera": "excited脸与上半身短特写，气泡指向嘴",
+      "ui_text": "请选出所有 大白米饭",
+      "speech": "这我知道！",
+      "thought": ""
+    },
+    {
+      "start_frame": 345,
+      "end_frame": 393,
+      "character": "excited",
+      "action": "切回操作镜头，连续8下正确选饭，越点越快，最后显示全对。",
+      "text": "这我知道！→全对",
+      "sound": "加速啵啵连击",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 393,
+      "end_frame": 458,
+      "character": "excited",
+      "action": "Token饼干6×6题，三个光标分列选中正确目标，保留气泡阅读时间。",
+      "text": "还有Token饼干！",
+      "sound": "弹簧、密集点击",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 458,
+      "end_frame": 510,
+      "character": "excited",
+      "action": "终极8×8食物题，三个光标快速扫正确格，显示全部选对。",
+      "text": "这题我熟！；全部选对",
+      "sound": "连击、上升音",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 510,
+      "end_frame": 555,
+      "character": "smug",
+      "action": "光标合体，她得意地说开饭，再点验证；失败章预动作从552帧开始。",
+      "text": "开饭！",
+      "sound": "合体呼啸、点击、下坠",
+      "camera": "得意脸与验证按钮同框",
+      "ui_text": "",
+      "speech": "开饭！",
+      "thought": ""
+    },
+    {
+      "start_frame": 555,
+      "end_frame": 558,
+      "character": "stunned",
+      "action": "555帧失败章触底；错误声、重砸、低频在558帧前结束。",
+      "text": "验证失败 / 你点得太快了 / 不像人类",
+      "sound": "错误声+重砸+低频，558帧前结束",
+      "camera": "失败印章与石化脸同构图，脸不可缩在远端角落",
+      "ui_text": "验证失败 / 你点得太快了 / 不像人类",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 558,
+      "end_frame": 576,
+      "character": "stunned",
+      "action": "整个画面钳在成片558帧的落稳状态，连续18帧完全冻结。",
+      "text": "验证失败 / 你点得太快了 / 不像人类",
+      "sound": "全混音完全静音0.6秒",
+      "camera": "失败印章与石化脸同构图，脸不可缩在远端角落",
+      "ui_text": "验证失败 / 你点得太快了 / 不像人类",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 576,
+      "end_frame": 630,
+      "character": "panic",
+      "action": "恢复彩色，失败章歪斜滑下，角色横向轻晃一次",
+      "text": "等、等一下！",
+      "sound": "单个尴尬弹簧音",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 630,
+      "end_frame": 681,
+      "character": "determined",
+      "action": "握拳下决心，人物嘴边弹出对话气泡；取消旁白大横幅",
+      "text": "鲸鱼娘说：那就装成人类！",
+      "sound": "重砸、纸拍",
+      "camera": "determined脸与上半身特写，占画面主体；验证码退为背景或退出",
+      "ui_text": "",
+      "speech": "那就装成人类！",
+      "thought": ""
+    },
+    {
+      "start_frame": 681,
+      "end_frame": 705,
+      "character": "pretend",
+      "action": "先出现先装手抖的内心气泡，再让光标抖着选第一碗饭。",
+      "text": "内心：先装手抖……",
+      "sound": "稀疏点击",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": "先装手抖……"
+    },
+    {
+      "start_frame": 705,
+      "end_frame": 747,
+      "character": "confused",
+      "action": "先想再装犹豫，再切嘴边台词这……是饭吗？；光标绕饭犹豫后选择。",
+      "text": "先想：再装犹豫…… → 再说：这……是饭吗？",
+      "sound": "慢滴答",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "这……是饭吗？",
+      "thought": "再装犹豫……"
+    },
+    {
+      "start_frame": 747,
+      "end_frame": 804,
+      "character": "pretend",
+      "action": "先想故意点错，再点吐司并取消；对外说哎呀，手滑，最后选饭提交。",
+      "text": "先想：故意点错…… → 再说：哎呀，手滑。",
+      "sound": "咚、取消声、点击",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "哎呀，手滑。",
+      "thought": "故意点错……"
+    },
+    {
+      "start_frame": 804,
+      "end_frame": 888,
+      "character": "pout",
+      "action": "三张套娃确认卡依次弹出并打勾，每层留出读字时间，角色委屈鼓脸。",
+      "text": "我真的不是机器人→我只是想吃白饭→饼干也要",
+      "sound": "每层短呼啸、盖章",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 888,
+      "end_frame": 918,
+      "character": "pretend",
+      "action": "可信度0→37→64→88→99%",
+      "text": "人类可信度；我可以等……",
+      "sound": "滴答加速",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 918,
+      "end_frame": 945,
+      "character": "pray",
+      "action": "停在99%，数字轻抖；角色闭眼祈祷",
+      "text": "99%",
+      "sound": "悬念上升音",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 945,
+      "end_frame": 970,
+      "character": "victory",
+      "action": "进度到100%，验证通过章；切victory比耶，970帧开始切happy抱饭。",
+      "text": "验证通过",
+      "sound": "重砸、亮叮",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 970,
+      "end_frame": 985,
+      "character": "happy",
+      "action": "第一张通关海报，大勾",
+      "text": "通过！",
+      "sound": "啪",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 985,
+      "end_frame": 1000,
+      "character": "happy",
+      "action": "第二张海报，人类认证",
+      "text": "人类！",
+      "sound": "盖章",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 1000,
+      "end_frame": 1015,
+      "character": "happy",
+      "action": "第三张海报，左侧独立满饭特写",
+      "text": "开饭！",
+      "sound": "啪",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 1015,
+      "end_frame": 1030,
+      "character": "happy",
+      "action": "同位置同尺度换剩饭特写，角色仍是原happy图",
+      "text": "白饭！",
+      "sound": "短啵",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 1030,
+      "end_frame": 1045,
+      "character": "happy",
+      "action": "独立完整Token饼干特写",
+      "text": "Token！",
+      "sound": "盖章",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 1045,
+      "end_frame": 1060,
+      "character": "happy",
+      "action": "同位置同尺度换缺口饼干，不改角色身上的饼干",
+      "text": "管饱！",
+      "sound": "短咔嚓",
+      "camera": "角色与验证码同场景前景构图，不固定右侧空栏",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 1060,
+      "end_frame": 1093,
+      "character": "happy",
+      "action": "先完整显示我不是机器人，尚不出现补充气泡",
+      "text": "我不是机器人。",
+      "sound": "低音拍击",
+      "camera": "黑底大字完整主句，抱饭角色靠近句子，不另设远端侧栏",
+      "ui_text": "我不是机器人。",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 1093,
+      "end_frame": 1111,
+      "character": "happy",
+      "action": "1093帧红色马克笔只划掉不；1099帧角色嘴边出现但我真的很饿，无大横幅。",
+      "text": "我不是机器人。（只划掉不） / 鲸鱼娘说：但我真的很饿",
+      "sound": "划线、短重砸",
+      "camera": "保持原句与抱饭角色共同构图",
+      "ui_text": "我不是机器人。（只划掉不）",
+      "speech": "但我真的很饿",
+      "thought": ""
+    },
+    {
+      "start_frame": 1111,
+      "end_frame": 1175,
+      "character": "happy",
+      "action": "保持划字后的主句与嘴边气泡到1175帧，不增加其他结尾台词。",
+      "text": "鲸鱼娘说：但我真的很饿",
+      "sound": "叮、轻啵",
+      "camera": "结尾构图保持读字",
+      "ui_text": "",
+      "speech": "但我真的很饿",
+      "thought": ""
+    },
+    {
+      "start_frame": 1175,
+      "end_frame": 1188,
+      "character": "hidden",
+      "action": "纯黑、全静音，接工作室片尾图。",
+      "text": "—",
+      "sound": "完全静音",
+      "camera": "纯黑",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 1188,
+      "end_frame": 1284,
+      "character": "endcard",
+      "action": "片尾图assets/endcard/studio_trio.png：1188–1209帧缓入，1209–1257帧停留，1257–1284帧缓出；原图完整，两侧同图模糊压暗补边；极轻推近0.98到1.00。",
+      "text": "—",
+      "sound": "完全静音",
+      "camera": "静止，极轻推近，不裁切",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    },
+    {
+      "start_frame": 1284,
+      "end_frame": 1290,
+      "character": "hidden",
+      "action": "纯黑收尾",
+      "text": "—",
+      "sound": "完全静音",
+      "camera": "纯黑",
+      "ui_text": "",
+      "speech": "",
+      "thought": ""
+    }
+  ],
+  "duration_seconds": 43,
+  "bubbles": [
+    {
+      "start_frame": 76,
+      "end_frame": 120,
+      "text": "验证完就开饭？",
+      "kind": "speech",
+      "style": "normal"
+    },
+    {
+      "start_frame": 201,
+      "end_frame": 245,
+      "text": "杆子……也算？",
+      "kind": "speech",
+      "style": "normal"
+    },
+    {
+      "start_frame": 262,
+      "end_frame": 290,
+      "text": "啊？",
+      "kind": "speech",
+      "style": "normal"
+    },
+    {
+      "start_frame": 321,
+      "end_frame": 365,
+      "text": "这我知道！",
+      "kind": "speech",
+      "style": "shout"
+    },
+    {
+      "start_frame": 395,
+      "end_frame": 450,
+      "text": "还有Token饼干！",
+      "kind": "speech",
+      "style": "shout"
+    },
+    {
+      "start_frame": 460,
+      "end_frame": 492,
+      "text": "这题我熟！",
+      "kind": "speech",
+      "style": "shout"
+    },
+    {
+      "start_frame": 512,
+      "end_frame": 552,
+      "text": "开饭！",
+      "kind": "speech",
+      "style": "shout"
+    },
+    {
+      "start_frame": 577,
+      "end_frame": 630,
+      "text": "等、等一下！",
+      "kind": "speech",
+      "style": "panic"
+    },
+    {
+      "start_frame": 633,
+      "end_frame": 681,
+      "text": "那就装成人类！",
+      "kind": "speech",
+      "style": "shout"
+    },
+    {
+      "start_frame": 681,
+      "end_frame": 703,
+      "text": "先装手抖……",
+      "kind": "thought",
+      "style": "normal"
+    },
+    {
+      "start_frame": 705,
+      "end_frame": 731,
+      "text": "再装犹豫……",
+      "kind": "thought",
+      "style": "normal"
+    },
+    {
+      "start_frame": 731,
+      "end_frame": 747,
+      "text": "这……是饭吗？",
+      "kind": "speech",
+      "style": "normal"
+    },
+    {
+      "start_frame": 747,
+      "end_frame": 771,
+      "text": "故意点错……",
+      "kind": "thought",
+      "style": "normal"
+    },
+    {
+      "start_frame": 771,
+      "end_frame": 804,
+      "text": "哎呀，手滑。",
+      "kind": "speech",
+      "style": "normal"
+    },
+    {
+      "start_frame": 890,
+      "end_frame": 918,
+      "text": "我可以等……",
+      "kind": "speech",
+      "style": "normal"
+    },
+    {
+      "start_frame": 1099,
+      "end_frame": 1175,
+      "text": "但我真的很饿",
+      "kind": "speech",
+      "style": "normal"
+    }
+  ],
+  "puzzles": {
+    "traffic": {
+      "n": 3,
+      "title": "红绿灯",
+      "sample": "svg:light",
+      "cells": [
+        "light",
+        "building",
+        "tree",
+        "crosswalk",
+        "light2",
+        "car",
+        "light3",
+        "sign",
+        "halfpole"
+      ],
+      "targets": [
+        0,
+        4,
+        6
+      ],
+      "events": [
+        {
+          "frame": 157,
+          "cell": 0,
+          "selected": true
+        },
+        {
+          "frame": 167,
+          "cell": 4,
+          "selected": true
+        },
+        {
+          "frame": 177,
+          "cell": 6,
+          "selected": true
+        },
+        {
+          "frame": 247,
+          "cell": 8,
+          "selected": true
+        }
+      ],
+      "submit": 255
+    },
+    "rice4": {
+      "n": 4,
+      "title": "大白米饭",
+      "sample": "rice_full",
+      "targets": [
+        0,
+        2,
+        5,
+        7,
+        8,
+        10,
+        13,
+        15
+      ],
+      "cells": [
+        "rice_full",
+        "bowl_empty",
+        "rice_full",
+        "toast",
+        "noodles",
+        "rice_full",
+        "bowl_empty",
+        "rice_full",
+        "rice_full",
+        "toast",
+        "rice_full",
+        "noodles",
+        "bowl_empty",
+        "rice_full",
+        "toast",
+        "rice_full"
+      ],
+      "events": [
+        {
+          "frame": 348,
+          "cell": 0,
+          "selected": true
+        },
+        {
+          "frame": 354,
+          "cell": 2,
+          "selected": true
+        },
+        {
+          "frame": 359,
+          "cell": 5,
+          "selected": true
+        },
+        {
+          "frame": 364,
+          "cell": 7,
+          "selected": true
+        },
+        {
+          "frame": 368,
+          "cell": 8,
+          "selected": true
+        },
+        {
+          "frame": 371,
+          "cell": 10,
+          "selected": true
+        },
+        {
+          "frame": 374,
+          "cell": 13,
+          "selected": true
+        },
+        {
+          "frame": 377,
+          "cell": 15,
+          "selected": true
+        }
+      ],
+      "submit": null
+    },
+    "token6": {
+      "n": 6,
+      "title": "Token 饼干",
+      "sample": "cookie_token",
+      "cells": [
+        "cookie_token",
+        "bowl_empty",
+        "cookie_token",
+        "cookie_plain",
+        "cookie_token",
+        "bowl_empty",
+        "cookie_token",
+        "toast",
+        "cookie_token",
+        "toast",
+        "cookie_token",
+        "cookie_plain",
+        "cookie_token",
+        "cookie_plain",
+        "cookie_token",
+        "bowl_empty",
+        "cookie_token",
+        "bowl_empty",
+        "cookie_token",
+        "toast",
+        "cookie_token",
+        "cookie_plain",
+        "cookie_token",
+        "toast",
+        "cookie_token",
+        "bowl_empty",
+        "cookie_token",
+        "bowl_empty",
+        "cookie_token",
+        "cookie_plain",
+        "cookie_token",
+        "cookie_plain",
+        "cookie_token",
+        "toast",
+        "cookie_token",
+        "toast"
+      ],
+      "targets": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34
+      ],
+      "events": [
+        {
+          "frame": 416,
+          "cell": 0,
+          "selected": true
+        },
+        {
+          "frame": 418,
+          "cell": 2,
+          "selected": true
+        },
+        {
+          "frame": 420,
+          "cell": 4,
+          "selected": true
+        },
+        {
+          "frame": 421,
+          "cell": 6,
+          "selected": true
+        },
+        {
+          "frame": 423,
+          "cell": 8,
+          "selected": true
+        },
+        {
+          "frame": 425,
+          "cell": 10,
+          "selected": true
+        },
+        {
+          "frame": 426,
+          "cell": 12,
+          "selected": true
+        },
+        {
+          "frame": 428,
+          "cell": 14,
+          "selected": true
+        },
+        {
+          "frame": 430,
+          "cell": 16,
+          "selected": true
+        },
+        {
+          "frame": 431,
+          "cell": 18,
+          "selected": true
+        },
+        {
+          "frame": 433,
+          "cell": 20,
+          "selected": true
+        },
+        {
+          "frame": 435,
+          "cell": 22,
+          "selected": true
+        },
+        {
+          "frame": 436,
+          "cell": 24,
+          "selected": true
+        },
+        {
+          "frame": 438,
+          "cell": 26,
+          "selected": true
+        },
+        {
+          "frame": 440,
+          "cell": 28,
+          "selected": true
+        },
+        {
+          "frame": 441,
+          "cell": 30,
+          "selected": true
+        },
+        {
+          "frame": 443,
+          "cell": 32,
+          "selected": true
+        },
+        {
+          "frame": 445,
+          "cell": 34,
+          "selected": true
+        }
+      ],
+      "cursorOf": {
+        "0": 0,
+        "2": 1,
+        "4": 2,
+        "6": 0,
+        "8": 1,
+        "10": 2,
+        "12": 0,
+        "14": 1,
+        "16": 2,
+        "18": 0,
+        "20": 1,
+        "22": 2,
+        "24": 0,
+        "26": 1,
+        "28": 2,
+        "30": 0,
+        "32": 1,
+        "34": 2
+      }
+    },
+    "mix8": {
+      "n": 8,
+      "title": "白米饭和 Token 饼干",
+      "sample": "mix",
+      "submit": 540,
+      "cells": [
+        "rice_full",
+        "cookie_plain",
+        "cookie_token",
+        "noodles",
+        "rice_full",
+        "cookie_plain",
+        "cookie_token",
+        "noodles",
+        "noodles",
+        "rice_full",
+        "cookie_plain",
+        "cookie_token",
+        "noodles",
+        "rice_full",
+        "cookie_plain",
+        "cookie_token",
+        "rice_full",
+        "noodles",
+        "cookie_token",
+        "cookie_plain",
+        "rice_full",
+        "noodles",
+        "cookie_token",
+        "cookie_plain",
+        "cookie_plain",
+        "rice_full",
+        "noodles",
+        "cookie_token",
+        "cookie_plain",
+        "rice_full",
+        "noodles",
+        "cookie_token",
+        "rice_full",
+        "cookie_plain",
+        "cookie_token",
+        "noodles",
+        "rice_full",
+        "cookie_plain",
+        "cookie_token",
+        "noodles",
+        "noodles",
+        "rice_full",
+        "cookie_plain",
+        "cookie_token",
+        "noodles",
+        "rice_full",
+        "cookie_plain",
+        "cookie_token",
+        "rice_full",
+        "noodles",
+        "cookie_token",
+        "cookie_plain",
+        "rice_full",
+        "noodles",
+        "cookie_token",
+        "cookie_plain",
+        "cookie_plain",
+        "rice_full",
+        "noodles",
+        "cookie_token",
+        "cookie_plain",
+        "rice_full",
+        "noodles",
+        "cookie_token"
+      ],
+      "targets": [
+        0,
+        2,
+        4,
+        6,
+        9,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        22,
+        25,
+        27,
+        29,
+        31,
+        32,
+        34,
+        36,
+        38,
+        41,
+        43,
+        45,
+        47,
+        48,
+        50,
+        52,
+        54,
+        57,
+        59,
+        61,
+        63
+      ],
+      "events": [
+        {
+          "frame": 464,
+          "cell": 0,
+          "selected": true
+        },
+        {
+          "frame": 465,
+          "cell": 9,
+          "selected": true
+        },
+        {
+          "frame": 466,
+          "cell": 16,
+          "selected": true
+        },
+        {
+          "frame": 467,
+          "cell": 2,
+          "selected": true
+        },
+        {
+          "frame": 468,
+          "cell": 11,
+          "selected": true
+        },
+        {
+          "frame": 469,
+          "cell": 18,
+          "selected": true
+        },
+        {
+          "frame": 470,
+          "cell": 4,
+          "selected": true
+        },
+        {
+          "frame": 471,
+          "cell": 13,
+          "selected": true
+        },
+        {
+          "frame": 472,
+          "cell": 20,
+          "selected": true
+        },
+        {
+          "frame": 473,
+          "cell": 6,
+          "selected": true
+        },
+        {
+          "frame": 474,
+          "cell": 15,
+          "selected": true
+        },
+        {
+          "frame": 475,
+          "cell": 22,
+          "selected": true
+        },
+        {
+          "frame": 476,
+          "cell": 25,
+          "selected": true
+        },
+        {
+          "frame": 477,
+          "cell": 32,
+          "selected": true
+        },
+        {
+          "frame": 478,
+          "cell": 41,
+          "selected": true
+        },
+        {
+          "frame": 479,
+          "cell": 27,
+          "selected": true
+        },
+        {
+          "frame": 480,
+          "cell": 34,
+          "selected": true
+        },
+        {
+          "frame": 481,
+          "cell": 43,
+          "selected": true
+        },
+        {
+          "frame": 482,
+          "cell": 29,
+          "selected": true
+        },
+        {
+          "frame": 483,
+          "cell": 36,
+          "selected": true
+        },
+        {
+          "frame": 484,
+          "cell": 45,
+          "selected": true
+        },
+        {
+          "frame": 485,
+          "cell": 31,
+          "selected": true
+        },
+        {
+          "frame": 486,
+          "cell": 38,
+          "selected": true
+        },
+        {
+          "frame": 487,
+          "cell": 47,
+          "selected": true
+        },
+        {
+          "frame": 488,
+          "cell": 48,
+          "selected": true
+        },
+        {
+          "frame": 489,
+          "cell": 57,
+          "selected": true
+        },
+        {
+          "frame": 491,
+          "cell": 50,
+          "selected": true
+        },
+        {
+          "frame": 492,
+          "cell": 59,
+          "selected": true
+        },
+        {
+          "frame": 494,
+          "cell": 52,
+          "selected": true
+        },
+        {
+          "frame": 495,
+          "cell": 61,
+          "selected": true
+        },
+        {
+          "frame": 497,
+          "cell": 54,
+          "selected": true
+        },
+        {
+          "frame": 498,
+          "cell": 63,
+          "selected": true
+        }
+      ],
+      "cursorOf": {
+        "0": 0,
+        "2": 0,
+        "4": 0,
+        "6": 0,
+        "9": 1,
+        "11": 1,
+        "13": 1,
+        "15": 1,
+        "16": 2,
+        "18": 2,
+        "20": 2,
+        "22": 2,
+        "25": 0,
+        "27": 0,
+        "29": 0,
+        "31": 0,
+        "32": 1,
+        "34": 1,
+        "36": 1,
+        "38": 1,
+        "41": 2,
+        "43": 2,
+        "45": 2,
+        "47": 2,
+        "48": 0,
+        "50": 0,
+        "52": 0,
+        "54": 0,
+        "57": 1,
+        "59": 1,
+        "61": 1,
+        "63": 1
+      }
+    },
+    "retry3": {
+      "n": 3,
+      "title": "大白米饭",
+      "sample": "rice_full",
+      "cells": [
+        "rice_full",
+        "toast",
+        "bowl_empty",
+        "noodles",
+        "rice_full",
+        "cookie_plain",
+        "bowl_empty",
+        "noodles",
+        "rice_full"
+      ],
+      "targets": [
+        0,
+        4,
+        8
+      ],
+      "events": [
+        {
+          "frame": 690,
+          "cell": 0,
+          "selected": true
+        },
+        {
+          "frame": 738,
+          "cell": 4,
+          "selected": true
+        },
+        {
+          "frame": 771,
+          "cell": 1,
+          "selected": true
+        },
+        {
+          "frame": 776,
+          "cell": 1,
+          "selected": false
+        },
+        {
+          "frame": 781,
+          "cell": 8,
+          "selected": true
+        }
+      ],
+      "submit": 786
+    }
+  },
+  "nest": [
+    {
+      "frame": 804,
+      "check_frame": 813,
+      "text": "我真的不是机器人"
+    },
+    {
+      "frame": 831,
+      "check_frame": 840,
+      "text": "我只是想吃白饭"
+    },
+    {
+      "frame": 858,
+      "check_frame": 867,
+      "text": "饼干也要"
+    }
+  ],
+  "meter": [
+    {
+      "frame": 888,
+      "value": 0
+    },
+    {
+      "frame": 894,
+      "value": 37
+    },
+    {
+      "frame": 900,
+      "value": 64
+    },
+    {
+      "frame": 906,
+      "value": 88
+    },
+    {
+      "frame": 912,
+      "value": 99
+    },
+    {
+      "frame": 945,
+      "value": 100
+    }
+  ],
+  "silence_windows": [
+    {
+      "start_frame": 558,
+      "end_frame": 576
+    },
+    {
+      "start_frame": 1175,
+      "end_frame": 1290
+    }
+  ]
+}

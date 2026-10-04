@@ -1,0 +1,18 @@
+# Generated projects and output
+video/
+deliverables/
+output/
+frames/
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+*.mp4
+*.wav
+*.zip
+.DS_Store
+Thumbs.db

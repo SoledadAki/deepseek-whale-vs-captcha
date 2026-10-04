@@ -1,0 +1,793 @@
+{
+  "version": "1.0.0",
+  "color_space": "sRGB",
+  "format": "PNG RGBA",
+  "alpha": "straight / unassociated",
+  "characters": {
+    "canvas": [
+      512,
+      640
+    ],
+    "anchor": [
+      256,
+      608
+    ],
+    "transform_origin": "50% 95%",
+    "usage": "Use same image dimensions for every pose."
+  },
+  "props": {
+    "canvas": [
+      512,
+      512
+    ],
+    "anchor": [
+      256,
+      480
+    ]
+  },
+  "processing": "Original sheets cropped and chroma-keyed locally. No generative edit in delivered assets.",
+  "assets": [
+    {
+      "id": "idle",
+      "label_zh": "期待",
+      "type": "character",
+      "path": "assets/characters/whale_idle.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        34,
+        48,
+        478,
+        608
+      ],
+      "tags": [
+        "开场",
+        "等待"
+      ],
+      "source_sheet": "六格蓝发女仆表情贴纸集.png",
+      "source_cell_px": [
+        0,
+        0,
+        512,
+        505
+      ],
+      "source_content_bbox_px": [
+        94,
+        13,
+        479,
+        499
+      ],
+      "sha256": "a28b6d306fa1d319160085d4f000c21870cba0de081f39cb5ffb30879df3e335"
+    },
+    {
+      "id": "confused",
+      "label_zh": "困惑",
+      "type": "character",
+      "path": "assets/characters/whale_confused.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        38,
+        48,
+        473,
+        608
+      ],
+      "tags": [
+        "红绿灯",
+        "装犹豫"
+      ],
+      "source_sheet": "六格蓝发女仆表情贴纸集.png",
+      "source_cell_px": [
+        512,
+        0,
+        1024,
+        505
+      ],
+      "source_content_bbox_px": [
+        579,
+        16,
+        954,
+        499
+      ],
+      "sha256": "8bdebb42ec7509a1887a13c4beeb135a6721cf6ed75e15169a4718e0759e5c80"
+    },
+    {
+      "id": "excited",
+      "label_zh": "秒懂兴奋",
+      "type": "character",
+      "path": "assets/characters/whale_excited.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        33,
+        48,
+        479,
+        608
+      ],
+      "tags": [
+        "白米饭",
+        "Token饼干",
+        "抢答"
+      ],
+      "source_sheet": "六格蓝发女仆表情贴纸集.png",
+      "source_cell_px": [
+        1024,
+        0,
+        1536,
+        505
+      ],
+      "source_content_bbox_px": [
+        1034,
+        7,
+        1427,
+        500
+      ],
+      "sha256": "05f8359852457d8f3c5d90ee7231d5f35058b2654c25b8a171d4848f42c4bbd8"
+    },
+    {
+      "id": "stunned",
+      "label_zh": "失败呆住",
+      "type": "character",
+      "path": "assets/characters/whale_stunned.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        33,
+        48,
+        478,
+        608
+      ],
+      "tags": [
+        "失败",
+        "定格",
+        "可灰度化"
+      ],
+      "source_sheet": "六格蓝发女仆表情贴纸集.png",
+      "source_cell_px": [
+        0,
+        505,
+        512,
+        1024
+      ],
+      "source_content_bbox_px": [
+        94,
+        509,
+        482,
+        997
+      ],
+      "sha256": "6c713c565f843333972312195728bcc36945f1895f78fb087ef0722b455b2a79"
+    },
+    {
+      "id": "pretend",
+      "label_zh": "尴尬假笑",
+      "type": "character",
+      "path": "assets/characters/whale_pretend.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        41,
+        48,
+        470,
+        608
+      ],
+      "tags": [
+        "装人类",
+        "汗滴"
+      ],
+      "source_sheet": "六格蓝发女仆表情贴纸集.png",
+      "source_cell_px": [
+        512,
+        505,
+        1024,
+        1024
+      ],
+      "source_content_bbox_px": [
+        579,
+        510,
+        952,
+        997
+      ],
+      "sha256": "0e10b34f190420ab81a4b0ed2d1ec095fc19a5acf3b338cacb6c3d413a4e2b2d"
+    },
+    {
+      "id": "happy",
+      "label_zh": "抱饭满足",
+      "type": "character",
+      "path": "assets/characters/whale_happy.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        39,
+        48,
+        472,
+        608
+      ],
+      "tags": [
+        "通关",
+        "结尾",
+        "已含饭碗与Token饼干"
+      ],
+      "source_sheet": "六格蓝发女仆表情贴纸集.png",
+      "source_cell_px": [
+        1024,
+        505,
+        1536,
+        1024
+      ],
+      "source_content_bbox_px": [
+        1052,
+        509,
+        1431,
+        999
+      ],
+      "sha256": "93642a943e7f6158e5db79b169feb9ca4d46b10bf8f2e0d1b89f82cd626a8a0c"
+    },
+    {
+      "id": "panic",
+      "label_zh": "慌张",
+      "type": "character",
+      "path": "assets/characters/whale_panic.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        36,
+        48,
+        476,
+        608
+      ],
+      "tags": [
+        "失败解冻",
+        "99%紧张"
+      ],
+      "source_sheet": "鲸鱼美食贴纸集.png",
+      "source_cell_px": [
+        0,
+        0,
+        420,
+        492
+      ],
+      "source_content_bbox_px": [
+        33,
+        12,
+        404,
+        484
+      ],
+      "sha256": "17b561f4a08324e646ce9b56f771a2df2f148f71fbfa2e931707620d82e2b2ee"
+    },
+    {
+      "id": "hungry",
+      "label_zh": "馋到流口水",
+      "type": "character",
+      "path": "assets/characters/whale_hungry.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        30,
+        48,
+        481,
+        608
+      ],
+      "tags": [
+        "等开饭"
+      ],
+      "source_sheet": "新增六格表情.png",
+      "source_cell_px": [
+        0,
+        0,
+        512,
+        508
+      ],
+      "source_content_bbox_px": [
+        66,
+        11,
+        463,
+        504
+      ],
+      "sha256": "a631475a88b7fafc1820acae5cad0afa440bd4d1230164a84bab62bcdc17ce09"
+    },
+    {
+      "id": "smug",
+      "label_zh": "得意叉腰",
+      "type": "character",
+      "path": "assets/characters/whale_smug.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        28,
+        48,
+        483,
+        608
+      ],
+      "tags": [
+        "秒选成功",
+        "提交前"
+      ],
+      "source_sheet": "新增六格表情.png",
+      "source_cell_px": [
+        512,
+        0,
+        1024,
+        508
+      ],
+      "source_content_bbox_px": [
+        558,
+        11,
+        959,
+        504
+      ],
+      "sha256": "26e485affb99fb37a623edc278a9892ee0edaf40e3545b8ad6cd8240f312f91b"
+    },
+    {
+      "id": "pout",
+      "label_zh": "委屈鼓脸",
+      "type": "character",
+      "path": "assets/characters/whale_pout.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        30,
+        48,
+        481,
+        608
+      ],
+      "tags": [
+        "套娃确认"
+      ],
+      "source_sheet": "新增六格表情.png",
+      "source_cell_px": [
+        1024,
+        0,
+        1536,
+        508
+      ],
+      "source_content_bbox_px": [
+        1054,
+        10,
+        1452,
+        504
+      ],
+      "sha256": "c4a77f367d7fed772d076a50aacf18e14c7cccab4cf069b081ad3162b4e19f1f"
+    },
+    {
+      "id": "determined",
+      "label_zh": "握拳下决心",
+      "type": "character",
+      "path": "assets/characters/whale_determined.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        28,
+        56,
+        484,
+        608
+      ],
+      "tags": [
+        "决定装人类"
+      ],
+      "source_sheet": "新增六格表情.png",
+      "source_cell_px": [
+        0,
+        508,
+        512,
+        1024
+      ],
+      "source_content_bbox_px": [
+        67,
+        512,
+        465,
+        994
+      ],
+      "sha256": "921f68f652558883d634ddea7dcd69be9642948ca973f37e65908e3970a6cfd3"
+    },
+    {
+      "id": "pray",
+      "label_zh": "闭眼祈祷",
+      "type": "character",
+      "path": "assets/characters/whale_pray.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        28,
+        54,
+        484,
+        608
+      ],
+      "tags": [
+        "99%等待"
+      ],
+      "source_sheet": "新增六格表情.png",
+      "source_cell_px": [
+        512,
+        508,
+        1024,
+        1024
+      ],
+      "source_content_bbox_px": [
+        560,
+        512,
+        957,
+        994
+      ],
+      "sha256": "2613ed7413d93e6e9b277fe055eeb6431bef623c34d63bff1d499bee5421451c"
+    },
+    {
+      "id": "victory",
+      "label_zh": "开心比耶",
+      "type": "character",
+      "path": "assets/characters/whale_victory.png",
+      "width": 512,
+      "height": 640,
+      "anchor_px": [
+        256,
+        608
+      ],
+      "alpha_bbox": [
+        28,
+        52,
+        484,
+        608
+      ],
+      "tags": [
+        "通过瞬间"
+      ],
+      "source_sheet": "新增六格表情.png",
+      "source_cell_px": [
+        1024,
+        508,
+        1536,
+        1024
+      ],
+      "source_content_bbox_px": [
+        1058,
+        512,
+        1453,
+        994
+      ],
+      "sha256": "080716134437b1602eb6407df31d8d24d3ab1fb357444a331ccf8a966bf52377"
+    },
+    {
+      "id": "rice_full",
+      "label_zh": "满满大白米饭",
+      "type": "prop",
+      "path": "assets/props/rice_full.png",
+      "width": 512,
+      "height": 512,
+      "anchor_px": [
+        256,
+        480
+      ],
+      "alpha_bbox": [
+        32,
+        72,
+        480,
+        480
+      ],
+      "tags": [
+        "验证码目标",
+        "满饭"
+      ],
+      "source_sheet": "鲸鱼美食贴纸集.png",
+      "source_cell_px": [
+        420,
+        0,
+        835,
+        492
+      ],
+      "source_content_bbox_px": [
+        444,
+        112,
+        810,
+        445
+      ],
+      "sha256": "5ef24ca10a6557b1f109361bb17b99418565ad6054406eb87c3cf95bb9cfa082"
+    },
+    {
+      "id": "bowl_empty",
+      "label_zh": "空饭碗",
+      "type": "prop",
+      "path": "assets/props/bowl_empty.png",
+      "width": 512,
+      "height": 512,
+      "anchor_px": [
+        256,
+        480
+      ],
+      "alpha_bbox": [
+        32,
+        112,
+        480,
+        480
+      ],
+      "tags": [
+        "验证码干扰"
+      ],
+      "source_sheet": "鲸鱼美食贴纸集.png",
+      "source_cell_px": [
+        835,
+        0,
+        1254,
+        492
+      ],
+      "source_content_bbox_px": [
+        856,
+        145,
+        1221,
+        445
+      ],
+      "sha256": "ed4ad78de499c376a350ef6c388df7657fde009fdcec1be6773a08a2df3efa81"
+    },
+    {
+      "id": "cookie_token",
+      "label_zh": "完整Token饼干",
+      "type": "prop",
+      "path": "assets/props/cookie_token.png",
+      "width": 512,
+      "height": 512,
+      "anchor_px": [
+        256,
+        480
+      ],
+      "alpha_bbox": [
+        44,
+        59,
+        468,
+        480
+      ],
+      "tags": [
+        "验证码目标",
+        "饼干特写"
+      ],
+      "source_sheet": "鲸鱼美食贴纸集.png",
+      "source_cell_px": [
+        0,
+        492,
+        420,
+        840
+      ],
+      "source_content_bbox_px": [
+        49,
+        497,
+        382,
+        828
+      ],
+      "sha256": "b9b7917d148e35a7cd00b669a576ff92eee4a6c011f0d1c9203f31ce85d18b0d"
+    },
+    {
+      "id": "cookie_token_bitten",
+      "label_zh": "缺口Token饼干",
+      "type": "prop",
+      "path": "assets/props/cookie_token_bitten.png",
+      "width": 512,
+      "height": 512,
+      "anchor_px": [
+        256,
+        480
+      ],
+      "alpha_bbox": [
+        44,
+        61,
+        468,
+        480
+      ],
+      "tags": [
+        "通关咔嚓特写"
+      ],
+      "source_sheet": "鲸鱼美食贴纸集.png",
+      "source_cell_px": [
+        420,
+        492,
+        835,
+        840
+      ],
+      "source_content_bbox_px": [
+        458,
+        497,
+        793,
+        828
+      ],
+      "sha256": "be731203967f6195bcffb686d8cccb74274a2a65bdbd03357e3483ac1372230a"
+    },
+    {
+      "id": "cookie_plain",
+      "label_zh": "普通无字饼干",
+      "type": "prop",
+      "path": "assets/props/cookie_plain.png",
+      "width": 512,
+      "height": 512,
+      "anchor_px": [
+        256,
+        480
+      ],
+      "alpha_bbox": [
+        44,
+        56,
+        468,
+        480
+      ],
+      "tags": [
+        "验证码干扰"
+      ],
+      "source_sheet": "鲸鱼美食贴纸集.png",
+      "source_cell_px": [
+        835,
+        492,
+        1254,
+        840
+      ],
+      "source_content_bbox_px": [
+        870,
+        496,
+        1202,
+        828
+      ],
+      "sha256": "af7474200f1360c4d3e6d1f9bbc1c7dada205262f07910984f65fdabffd9f0d6"
+    },
+    {
+      "id": "toast",
+      "label_zh": "吐司面包",
+      "type": "prop",
+      "path": "assets/props/toast.png",
+      "width": 512,
+      "height": 512,
+      "anchor_px": [
+        256,
+        480
+      ],
+      "alpha_bbox": [
+        47,
+        32,
+        464,
+        480
+      ],
+      "tags": [
+        "验证码干扰",
+        "装点错"
+      ],
+      "source_sheet": "鲸鱼美食贴纸集.png",
+      "source_cell_px": [
+        0,
+        840,
+        420,
+        1254
+      ],
+      "source_content_bbox_px": [
+        41,
+        850,
+        389,
+        1224
+      ],
+      "sha256": "d88870d2c90fa6bb890825c15be93b1194ec4f210152e7437f9cf6b471ef8546"
+    },
+    {
+      "id": "noodles",
+      "label_zh": "一碗面条",
+      "type": "prop",
+      "path": "assets/props/noodles.png",
+      "width": 512,
+      "height": 512,
+      "anchor_px": [
+        256,
+        480
+      ],
+      "alpha_bbox": [
+        32,
+        93,
+        480,
+        480
+      ],
+      "tags": [
+        "验证码干扰"
+      ],
+      "source_sheet": "鲸鱼美食贴纸集.png",
+      "source_cell_px": [
+        420,
+        840,
+        835,
+        1254
+      ],
+      "source_content_bbox_px": [
+        443,
+        872,
+        810,
+        1189
+      ],
+      "sha256": "5fea22bddf18c835da1918917a374d4a56138bbe869dd088637d42019ace13ca"
+    },
+    {
+      "id": "rice_leftover",
+      "label_zh": "少量剩饭",
+      "type": "prop",
+      "path": "assets/props/rice_leftover.png",
+      "width": 512,
+      "height": 512,
+      "anchor_px": [
+        256,
+        480
+      ],
+      "alpha_bbox": [
+        32,
+        92,
+        480,
+        480
+      ],
+      "tags": [
+        "通关饭碗特写"
+      ],
+      "source_sheet": "鲸鱼美食贴纸集.png",
+      "source_cell_px": [
+        835,
+        840,
+        1254,
+        1254
+      ],
+      "source_content_bbox_px": [
+        855,
+        872,
+        1221,
+        1189
+      ],
+      "sha256": "b0a6c96fbec20e396bc874da70614b53ade5409cee67366ec5ea3eab869ca769"
+    },
+    {
+      "id": "endcard",
+      "label_zh": "工作室片尾插画",
+      "type": "endcard",
+      "path": "assets/endcard/studio_trio.png",
+      "width": 1448,
+      "height": 1086,
+      "tags": [
+        "片尾",
+        "保持完整比例"
+      ],
+      "sha256": "ccf3348d1ec41f35c44e3a06c4fad402dd9b74c06708b3373fecd94074442ca6"
+    }
+  ]
+}
